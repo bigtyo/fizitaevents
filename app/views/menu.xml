@@ -1,0 +1,72 @@
+<Alloy>	
+	<View id="menu">
+		<View class="menubanner"></View>
+		<TableView class="menuoptions" onClick="menuclick">
+			<TableViewRow class="menurowcontainer" rowId="1">
+				<View class="menurow">
+					<View class="iconcontainer">
+						<ImageView class="icon" image="/ic_action_not_important.png"/>
+					</View>
+					<Label class="menucaption">Home</Label>
+				</View>
+			</TableViewRow>
+			<TableViewRow class="menurowcontainer" rowId="2">
+				<View class="menurow">
+					<View class="iconcontainer">
+						<ImageView class="icon" image="/ic_action_not_important.png"/>
+					</View>
+					<Label class="menucaption">Our Service</Label>
+				</View>
+			</TableViewRow>
+			<TableViewRow class="menurowcontainer" rowId="3">
+				<View class="menurow">
+					<View class="iconcontainer">
+						<ImageView class="icon" image="/ic_action_not_important.png"/>
+					</View>
+					<Label class="menucaption"> >> The Planner</Label>
+				</View>
+			</TableViewRow>
+			<TableViewRow class="menurowcontainer" rowId="4">
+				<View class="menurow">
+					<View class="iconcontainer">
+						<ImageView class="icon" image="/ic_action_not_important.png"/>
+					</View>
+					<Label class="menucaption"> >> Wedding and catering </Label>
+				</View>
+			</TableViewRow>
+			<TableViewRow class="menurowcontainer" rowId="5">
+				<View class="menurow">
+					<View class="iconcontainer">
+						<ImageView class="icon" image="/ic_action_not_important.png"/>
+					</View>
+					<Label class="menucaption">Events</Label>
+				</View>
+			</TableViewRow>
+			<TableViewRow class="menurowcontainer" rowId="6">
+				<View class="menurow">
+					<View class="iconcontainer">
+						<ImageView class="icon" image="/ic_action_not_important.png"/>
+					</View>
+					<Label class="menucaption">Gallery</Label>
+				</View>
+			</TableViewRow>
+			<TableViewRow class="menurowcontainer" rowId="7">
+				<View class="menurow">
+					<View class="iconcontainer">
+						<ImageView class="icon" image="/ic_action_not_important.png"/>
+					</View>
+					<Label class="menucaption">About</Label>
+				</View>
+			</TableViewRow>
+			<TableViewRow class="menurowcontainer" rowId="8">
+				<View class="menurow">
+					<View class="iconcontainer">
+						<ImageView class="icon" image="/ic_action_not_important.png"/>
+					</View>
+					<Label class="menucaption">Contact</Label>
+				</View>
+			</TableViewRow>
+		</TableView>
+	</View>
+	
+</Alloy>
